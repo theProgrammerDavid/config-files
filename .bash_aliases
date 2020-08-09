@@ -3,6 +3,7 @@ alias dps='docker ps'
 alias dsa='docker stop $(docker ps -aq)'
 alias dsp='docker system prune'
 alias dspa='docker system prune -a'
+alias dspaf='docker system prune -af'
 
 ####
 
@@ -22,7 +23,7 @@ alias count='find . -type f | wc -l'
 alias cpv='rsync -ah --info=progress2'
 ####
 
-#### UBUNTU STUFF
+#### ARCH STUFF, BTW I USE ARCH
 alias pug='sudo pacman -Syyu'
 ####
 
