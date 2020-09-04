@@ -12,6 +12,10 @@ function cdd(){
  cd $1
  ls
 }
+function mkcd(){
+mkdir $1
+cd $1
+}
 alias ll='ls -l'
 alias ..='cd ..'
 alias ...='cd ../../../'
@@ -25,6 +29,9 @@ alias cpv='rsync -ah --info=progress2'
 
 #### ARCH STUFF, BTW I USE ARCH
 alias pug='sudo pacman -Syyu'
+#### UBUNTU STUFF ####
+alias saup='sudo apt update -y'
+alias saug='sudo apt upgrade -y'
 ####
 
 #### SSH STUFF ####
