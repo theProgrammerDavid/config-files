@@ -61,9 +61,9 @@ function gccc(){
  ./$1
 }
 
-####
+#### NODE-JS INSTALL 
 
-
+alias npmi='npm i'
 
 #### RANDOM STUFF ####
 
