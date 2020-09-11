@@ -10,3 +10,7 @@ rm ~/.bashrc
 cp ./.bashrc ~/.bashrc
 cp ./.vimrc ~/.vimrc
 cp ./.bash_aliases ~/.bash_aliases
+
+
+echo "\n\nChange Download a NERD-AWESOME font and install it and change the default font"
+echo "\nBash font size 13"
