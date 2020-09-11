@@ -97,4 +97,19 @@ alias cpuinfo='lscpu'
 ## get GPU ram on desktop / laptop##
 alias gpumeminfo='grep -i --color memory /var/log/Xorg.0.log'
 
+#### KUBERNETES STUFF #### 
+export KUBECONFIG=/path/to/kubeconfig.yml
+alias kubgn='kubectl get nodes'
+alias kubci='kubectl cluster info'
+alias kubrun='kubectl run'
+alias kubgp='kubectl get pods'
+alias kubdp='kubectl describe pods'
+
+#### git stuff ####
+alias ga='git add'
+alias gc='git commit -m'
+alias gpul='git pull'
+alias gpus='git push'
+alias gits='git status'
+
 ####
