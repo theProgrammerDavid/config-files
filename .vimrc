@@ -2,6 +2,7 @@ syntax on
 set modeline
 set relativenumber
 set expandtab
+set updatetime=100
 set tabstop=4
 set shiftwidth=4
 set number
@@ -17,6 +18,10 @@ Plug 'dense-analysis/ale'
 Plug 'frazrepo/vim-rainbow'
 Plug 'voldikss/vim-floaterm'
 Plug 'ryanoasis/vim-devicons'
+Plug 'frazrepo/vim-rainbow'
+Plug 'itchyny/lightline.vim'
+Plug 'jiangmiao/auto-pairs'
+Plug 'airblade/vim-gitgutter'
 
 call plug#end()
 
@@ -50,4 +55,5 @@ let g:NERDTreeGitStatusShowClean = 1
 "let g:NERDTreeGitStatusConcealBrackets = 1 
 set encoding=UTF-8
 
-
+" vim rainbow 
+let g:rainbow_active = 1
