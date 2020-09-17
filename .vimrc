@@ -22,7 +22,9 @@ Plug 'frazrepo/vim-rainbow'
 Plug 'itchyny/lightline.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'airblade/vim-gitgutter'
-
+Plug 'mustache/vim-mustache-handlebars'
+Plug 'joukevandermaas/vim-ember-hbs'
+Plug 'easymotion/vim-easymotion'
 call plug#end()
 
 let g:rainbow_active = 1
@@ -30,6 +32,8 @@ colorscheme material
 set smartindent
 filetype indent on
 autocmd BufRead,BufWritePre *.c normal gg=G
+au BufReadPost *.ezt set syntax=html
+au BufReadPost *.hbs set syntax=mustache
 
 "VIM NerdTree autostart
 autocmd StdinReadPre * let s:std_in=1
@@ -57,3 +61,13 @@ set encoding=UTF-8
 
 " vim rainbow 
 let g:rainbow_active = 1
+" vim floaterm
+"unmap <C-n>
+let g:floaterm_keymap_new    = '<F7>'
+let g:floaterm_keymap_prev   = '<F8>'
+let g:floaterm_keymap_next   = '<F9>'
+let g:floaterm_keymap_toggle = '<F12>'
+let g:NERDTreeShowHidden=1
+
+" leader key
+let mapleader=","
