@@ -142,3 +142,20 @@ if [ -e $HOME/.bash_aliases ]; then
  source $HOME/.bash_aliases
 fi
 
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+export LD_LIBRARY_PATH=/usr/lib/cuda/lib64:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=/usr/lib/cuda/include:$LD_LIBRARY_PATH
+export PATH=$PATH:/home/david/programs/flutter/bin
+export PATH=$PATH:/home/david/programs/android-studio/bin
+export PATH=$PATH:/home/david/programs/ftkimager.3.1.1_ubuntu64
+#export GOPATH=/home/david/programs/go
+
+
+# FzF stuff
+export FZF_DEFAULT_COMMAND='rg --files --follow --hidden'
+
+# Fish syntax
+# set -gx FZF_DEFAULT_COMMAND  'rg --files --follow --hidden'
