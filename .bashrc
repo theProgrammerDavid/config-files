@@ -159,3 +159,6 @@ export FZF_DEFAULT_COMMAND='rg --files --follow --hidden'
 
 # Fish syntax
 # set -gx FZF_DEFAULT_COMMAND  'rg --files --follow --hidden'
+
+# STARSHIP shell
+eval "$(starship init bash)"
