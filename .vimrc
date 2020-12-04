@@ -100,8 +100,6 @@ let g:NERDTreeGitStatusShowClean = 1
 let g:NERDTreeGitStatusConcealBrackets = 1 
 set encoding=UTF-8
 
-" Mouse Support
-set mouse=a
 " vim rainbow 
 let g:rainbow_active = 1
 " vim floaterm
@@ -114,6 +112,9 @@ let g:NERDTreeShowHidden=1
 
 " leader key
 let mapleader=","
+
+" Set Mouse
+:set mouse=a
 
 " FzF stuff
 nnoremap <C-p> :Files<CR>
