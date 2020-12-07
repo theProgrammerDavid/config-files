@@ -16,6 +16,8 @@ function mkcd(){
 mkdir $1
 cd $1
 }
+alias n='nvim'
+alias nn='nvim .'
 alias ll='ls -l'
 alias ..='cd ..'
 alias ...='cd ../../../'
@@ -45,7 +47,7 @@ alias sshcsi='ssh root@login.csivit.com'
 alias sshbr='ssh root@login.breaker.csivit.com'
 alias sshd1='ssh david@192.168.0.107'
 alias sshd2='ssh david@192.168.0.106'
-
+alias sshas='ssh david@192.168.0.101'
 
 ####
 
