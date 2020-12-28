@@ -3,6 +3,7 @@
 sudo apt install curl
 mkdir -p ~/.vim
 mkdir -p ~/.config/nvim
+touch ~/init.vim
 
 if [ ! -f ~/.vim/autoload/plug.vim ]; then
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
