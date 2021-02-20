@@ -18,6 +18,7 @@ cd $1
 }
 alias n='nvim'
 alias nn='nvim .'
+alias ls='exa'
 alias ll='ls -l'
 alias ..='cd ..'
 alias ...='cd ../../../'
@@ -27,6 +28,7 @@ alias .4='cd ../../../../'
 alias .5='cd ../../../../..'
 alias count='find . -type f | wc -l'
 alias cpv='rsync -ah --info=progress2'
+alias cat='bat'
 ####
 
 #### ARCH STUFF, BTW I USE ARCH
