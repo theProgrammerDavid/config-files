@@ -1,2 +1,6 @@
 i3-wm.gaps.inner.size: 20
-
+St.font: Source Code Pro:pixelsize=20:antialias=true:autohint=true
+i3-wm.bar.font: pango:Source Code Pro Medium 20, Material Design Icons 20
+i3-wm.font:     pango:Source Code Pro Medium 20
+i3xrocks.value.font:    Source Code Pro Medium 20
+rofi.font:      Source Code Pro Medium 20
